@@ -1,0 +1,48 @@
+.app {
+  height: 100vh;
+
+  .header {
+    text-align: center;
+    height: 60px;
+    background-color: #1ebea5;
+    color: white;
+
+    h1 {
+      margin: 0;
+    }
+  }
+
+  .messages {
+    height: calc(100% - 130px);
+    padding: 10px;
+    overflow: auto;
+
+    p {
+      background-color: #1ebea5;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 3px;
+      width: fit-content;
+    }
+  }
+
+  form {
+    height: 30px;
+    padding: 10px;
+    background-color: lightgray;
+
+    input {
+      height: 100%;
+      width: calc(100% - 60px);
+      border: none;
+    }
+
+    button {
+      background-color: #1ebea5;
+      color: white;
+      border: none;
+      width: 60px;
+      height: 100%;
+    }
+  }
+}
